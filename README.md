@@ -1,4 +1,4 @@
-##  P3nMapper
+##  P3nUrM0M
 
 ##  Description : Un scanner de sécurité basé sur Nmap avec détection automatique des vulnérabilités, des CPE, et des scores CVSS via l'API Vulners. Il permet de scanner une IP unique ou un réseau entier (CIDR), tout en affichant l'IP en cours de scan pour suivre la progression.
 
