@@ -1,27 +1,15 @@
-Voici le fichier `README.md` formaté en Markdown :  
+📌 Nom du projet : P3nMapper
+📌 Description : Un scanner de sécurité basé sur Nmap avec détection automatique des vulnérabilités, des CPE, et des scores CVSS via l'API Vulners. Il permet de scanner une IP unique ou un réseau entier (CIDR), tout en affichant l'IP en cours de scan pour suivre la progression.
 
-```markdown
-# P3nMapper
-
-📌 **Nom du projet** : **P3nMapper**  
-📌 **Description** : Un scanner de sécurité basé sur **Nmap** avec détection automatique des **vulnérabilités**, des **CPE**, et des **scores CVSS** via l'API **Vulners**. Il permet de scanner une **IP unique** ou un **réseau entier** (`CIDR`), tout en affichant l'IP en cours de scan pour suivre la progression.
-
----
-
-## 🛠 Fonctionnalités
-
-- **Scan Nmap** avec détection des services (`-sV`), des OS (`-O`) et des vulnérabilités (`--script vulners`).
-- Extraction des **CVE** détectés et récupération de leur **score CVSS**.
-- Affichage du **niveau de criticité** basé sur le CVSS.
-- Possibilité de scanner **une seule IP** ou **un réseau entier** (`CIDR`).
-- Affichage en **temps réel** de l'IP en cours de scan.
-
----
-
-## 🚀 Installation
-
-### 📌 Pré-requis  
-Assure-toi d'avoir **Python 3**, **Nmap** et les bibliothèques nécessaires :
+🛠 Fonctionnalités
+Scan Nmap avec détection des services (-sV), des OS (-O) et des vulnérabilités (--script vulners).
+Extraction des CVE détectés et récupération de leur score CVSS.
+Affichage du niveau de criticité basé sur le CVSS.
+Possibilité de scanner une seule IP ou un réseau entier (CIDR).
+Affichage en temps réel de l'IP en cours de scan.
+🚀 Installation
+Pré-requis :
+Assure-toi d'avoir Python 3, Nmap et les bibliothèques nécessaires :
 
 ```sh
 sudo apt update && sudo apt install -y nmap python3 python3-pip
